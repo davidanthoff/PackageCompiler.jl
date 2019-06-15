@@ -9,6 +9,7 @@ include("snooping.jl")
 include("system_image.jl")
 include("pkg.jl")
 include("incremental.jl")
+include("compile_env.jl")
 
 
 const sysimage_binaries = ("sys.$(Libdl.dlext)",)
